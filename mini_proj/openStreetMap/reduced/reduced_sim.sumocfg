@@ -1,8 +1,8 @@
 <configuration>
     <input>
-        <net-file value="reuced_map.net.xml"/>
+        <net-file value="reduced_map.net.xml"/>
         <route-files value="truck_routes.rou.xml, bus_routes.rou.xml, delivery_routes.rou.xml, passenger_routes.rou.xml, trailer_routes.rou.xml"/>
-	<additional-files value="map.poly.xml"/>
+        <additional-files value="reduced_map.poly.xml"/>
     </input>
     <time>
         <begin value="0"/>
