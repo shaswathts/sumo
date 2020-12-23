@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Wed Dec 23 23:12:44 2020 by Eclipse SUMO netedit Version 1.7.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/home/shashwath/Sumo/olympics/olympics.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/shashwath/Sumo/olympics/olympics.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="true"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<net version="1.6" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="0.00,0.00,1000.00,0.00" origBoundary="-10000000000.00,-10000000000.00,10000000000.00,10000000000.00" projParameter="!"/>
+
+    <edge id="beg" from="gneJ2" to="gneJ1" priority="-1">
+        <lane id="beg_0" index="0" allow="rail_urban" speed="13.89" length="900.00" shape="900.00,14.40 0.00,14.40"/>
+        <lane id="beg_1" index="1" allow="passenger" speed="13.89" length="900.00" shape="900.00,11.20 0.00,11.20"/>
+        <lane id="beg_2" index="2" allow="pedestrian" speed="13.89" length="900.00" shape="900.00,8.00 0.00,8.00"/>
+        <lane id="beg_3" index="3" allow="bicycle" speed="13.89" length="900.00" shape="900.00,4.80 0.00,4.80"/>
+        <lane id="beg_4" index="4" allow="bus" speed="13.89" length="900.00" shape="900.00,1.60 0.00,1.60"/>
+    </edge>
+    <edge id="end" from="gneJ0" to="gneJ2" priority="-1">
+        <lane id="end_0" index="0" allow="rail_urban" speed="13.89" length="100.00" shape="1000.00,14.40 900.00,14.40"/>
+        <lane id="end_1" index="1" allow="passenger" speed="13.89" length="100.00" shape="1000.00,11.20 900.00,11.20"/>
+        <lane id="end_2" index="2" allow="pedestrian" speed="13.89" length="100.00" shape="1000.00,8.00 900.00,8.00"/>
+        <lane id="end_3" index="3" allow="motorcycle" speed="13.89" length="100.00" shape="1000.00,4.80 900.00,4.80"/>
+        <lane id="end_4" index="4" allow="bus" speed="13.89" length="100.00" shape="1000.00,1.60 900.00,1.60"/>
+    </edge>
+
+    <junction id="gneJ0" type="dead_end" x="1000.00" y="0.00" incLanes="" intLanes="" shape="1000.00,0.00 1000.00,16.00"/>
+    <junction id="gneJ1" type="dead_end" x="0.00" y="0.00" incLanes="beg_0 beg_1 beg_2 beg_3 beg_4" intLanes="" shape="0.00,16.00 0.00,0.00"/>
+    <junction id="gneJ2" type="priority" x="900.00" y="0.00" incLanes="end_0 end_1 end_2 end_3 end_4" intLanes="" shape="900.00,16.00 900.00,0.00 900.00,16.00">
+        <request index="0" response="00000" foes="00000"/>
+        <request index="1" response="00000" foes="00000"/>
+        <request index="2" response="00000" foes="00000"/>
+        <request index="3" response="00000" foes="00000"/>
+        <request index="4" response="00000" foes="00000"/>
+    </junction>
+
+    <connection from="end" to="beg" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from="end" to="beg" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from="end" to="beg" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from="end" to="beg" fromLane="3" toLane="3" dir="s" state="M"/>
+    <connection from="end" to="beg" fromLane="4" toLane="4" dir="s" state="M"/>
+
+</net>
