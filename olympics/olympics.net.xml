@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Thu Dec 24 11:34:22 2020 by Eclipse SUMO netedit Version 1.7.0
+<!-- generated on Thu Dec 24 12:00:58 2020 by Eclipse SUMO netedit Version 1.7.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -56,8 +56,14 @@
         <lane id="end_4" index="4" allow="rail_urban" speed="13.89" length="100.00" shape="900.00,-1.60 1000.00,-1.60"/>
     </edge>
 
+    <tlLogic id="01" type="static" programID="0" offset="0">
+        <phase duration="100" state="rrrr"/>
+        <phase duration="1000" state="GGGG"/>
+        <phase duration="5"  state="rrrr"/>
+    </tlLogic>
+
     <junction id="00" type="dead_end" x="0.00" y="0.00" incLanes="" intLanes="" shape="0.00,0.00 0.00,-13.60"/>
-    <junction id="01" type="priority" x="900.00" y="0.00" incLanes="beg_0 beg_1 beg_2 beg_3 beg_4" intLanes="" shape="900.00,0.00 900.00,-13.60 900.00,0.00">
+    <junction id="01" type="traffic_light" x="900.00" y="0.00" incLanes="beg_0 beg_1 beg_2 beg_3 beg_4" intLanes="" shape="900.00,0.00 900.00,-13.60 900.00,0.00">
         <request index="0" response="0000" foes="0000"/>
         <request index="1" response="0000" foes="0000"/>
         <request index="2" response="0000" foes="0000"/>
@@ -65,9 +71,9 @@
     </junction>
     <junction id="02" type="dead_end" x="1000.00" y="0.00" incLanes="end_0 end_1 end_2 end_3 end_4" intLanes="" shape="1000.00,-13.60 1000.00,0.00"/>
 
-    <connection from="beg" to="end" fromLane="1" toLane="1" dir="s" state="M"/>
-    <connection from="beg" to="end" fromLane="2" toLane="2" dir="s" state="M"/>
-    <connection from="beg" to="end" fromLane="3" toLane="3" dir="s" state="M"/>
-    <connection from="beg" to="end" fromLane="4" toLane="4" dir="s" state="M"/>
+    <connection from="beg" to="end" fromLane="1" toLane="1" tl="01" linkIndex="0" dir="s" state="O"/>
+    <connection from="beg" to="end" fromLane="2" toLane="2" tl="01" linkIndex="1" dir="s" state="O"/>
+    <connection from="beg" to="end" fromLane="3" toLane="3" tl="01" linkIndex="2" dir="s" state="O"/>
+    <connection from="beg" to="end" fromLane="4" toLane="4" tl="01" linkIndex="3" dir="s" state="O"/>
 
 </net>
