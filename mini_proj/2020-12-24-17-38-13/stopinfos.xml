@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Thu Dec 24 17:38:20 2020 by Eclipse SUMO sumo Version 1.7.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/shashwath/Sumo/2020-12-24-17-38-13/osm.net.xml"/>
+        <route-files value="/home/shashwath/Sumo/2020-12-24-17-38-13/trips.trips.xml"/>
+        <additional-files value="/home/shashwath/Sumo/2020-12-24-17-38-13/osm_stops.add.xml"/>
+    </input>
+
+    <output>
+        <vehroute-output value="/home/shashwath/Sumo/2020-12-24-17-38-13/vehroutes.xml"/>
+        <stop-output value="/home/shashwath/Sumo/2020-12-24-17-38-13/stopinfos.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-interval value="0"/>
+    </routing>
+
+    <report>
+        <error-log value="/home/shashwath/Sumo/2020-12-24-17-38-13/trips.trips.xml.errorlog"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<stops xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/stopinfo_file.xsd">
+</stops>
