@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Thu Dec 24 22:45:30 2020 by Eclipse SUMO duarouter Version 1.7.0
+<!-- generated on Tue Dec 29 16:42:19 2020 by Eclipse SUMO duarouter Version 1.7.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
@@ -71,7 +71,7 @@
     </vehicle>
     <vehicle id="8" type="trailer" depart="1200.00">
         <routeDistribution last="0">
-            <route cost="88.60" probability="1.00000000" edges="-374529123#1 -374529123#0 374529118#7 374529122#0 374529122#1 374529120#11"/>
+            <route cost="112.12" probability="1.00000000" edges="-374529123#1 -374529123#0 374529118#7 374529122#0 374529122#1 374532416#1 374532416#2 374529120#10 374529120#11"/>
         </routeDistribution>
     </vehicle>
     <vehicle id="9" type="trailer" depart="1350.00">

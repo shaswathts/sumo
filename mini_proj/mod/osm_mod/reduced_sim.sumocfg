@@ -1,8 +1,8 @@
 <configuration>
     <input>
         <net-file value="osm.net.xml"/>
-        <route-files value="truck_routes.rou.xml, bus_routes.rou.xml, delivery_routes.rou.xml, passenger_routes.rou.xml, trailer_routes.rou.xml"/>
-        <additional-files value="reduced_map.poly.xml"/>
+        <route-files value="truck_routes.rou.xml, bus_routes.rou.xml, delivery_routes.rou.xml, osm.passenger.rou.xml, trailer_routes.rou.xml, osm_pt.rou.xml"/>
+        <additional-files value="osm_map.poly.xml, parking.add.xml, osm_stops.add.xml"/>
     </input>
     <time>
         <begin value="0"/>
