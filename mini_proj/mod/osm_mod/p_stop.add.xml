@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Fri Dec 25 09:47:22 2020 by Eclipse SUMO netedit Version 1.7.0
+<!-- generated on Tue Dec 29 21:09:32 2020 by Eclipse SUMO netedit Version 1.7.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -32,7 +32,8 @@
     </pedestrian>
 
     <netedit>
-        <additional-files value="/home/shashwath/Sumo/mini_proj/mod/osm_mod/parking.add.xml"/>
+        <additional-files value="/home/shashwath/Sumo/mini_proj/mod/osm_mod/p_stop.add.xml"/>
+        <route-files value="/home/shashwath/Sumo/mini_proj/mod/osm_mod/osm.passenger.rou.xml"/>
     </netedit>
 
     <report>
@@ -43,11 +44,6 @@
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
-    <busStop id="busStop_gneE55_0_10" lane="gneE55_0" startPos="84.25" endPos="94.25"/>
-    <parkingArea id="KC" lane="122612356#1_0" startPos="512.41" endPos="552.41" name="Near KC circle" roadsideCapacity="30" width="15.00"/>
-    <parkingArea id="gate_1" lane="-122612356#1_0" startPos="585.06" endPos="616.07" name="MIT main gate" roadsideCapacity="50" width="20.00"/>
-    <parkingArea id="gate_5" lane="609872584_0" startPos="280.05" endPos="342.09" roadsideCapacity="25"/>
-    <parkingArea id="opp_MFC" lane="-gneE77_0" startPos="0.00" endPos="40.00" name="MFC" roadsideCapacity="10" onRoad="1"/>
-    <parkingArea id="staff_1" lane="-122612374#0_0" startPos="3.00" endPos="40.13" roadsideCapacity="20" width="15.00"/>
-    <parkingArea id="staff_2" lane="186263438#0_0" startPos="0.00" endPos="85.00" name="staff_2" roadsideCapacity="15"/>
+    <parkingArea id="pa1" lane="-122612356#1_1" startPos="594.58" endPos="604.58" roadsideCapacity="35"/>
+    <parkingArea id="pa2" lane="122612356#1_1" startPos="26.29" endPos="36.29" roadsideCapacity="40"/>
 </additional>
