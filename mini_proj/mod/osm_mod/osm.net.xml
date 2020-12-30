@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Tue Dec 29 22:05:48 2020 by Eclipse SUMO netedit Version 1.7.0
+<!-- generated on Wed Dec 30 07:50:38 2020 by Eclipse SUMO netedit Version 1.7.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -32,8 +32,7 @@
     </pedestrian>
 
     <netedit>
-        <additional-files value="/home/shashwath/Sumo/mini_proj/mod/osm_mod/p_stop.add.xml"/>
-        <route-files value="/home/shashwath/Sumo/mini_proj/mod/osm_mod/osm.passenger.rou.xml"/>
+        <route-files value="/home/shashwath/Sumo/mini_proj/mod/osm_mod/custom_flow.rou.xml"/>
     </netedit>
 
     <report>

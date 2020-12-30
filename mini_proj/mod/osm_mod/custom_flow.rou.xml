@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Wed Dec 30 07:51:47 2020 by Eclipse SUMO netedit Version 1.7.0
+<!-- generated on Wed Dec 30 07:50:47 2020 by Eclipse SUMO netedit Version 1.7.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -32,7 +32,6 @@
     </pedestrian>
 
     <netedit>
-        <additional-files value="/home/shashwath/Sumo/mini_proj/mod/osm_mod/p_stop.add.xml"/>
         <route-files value="/home/shashwath/Sumo/mini_proj/mod/osm_mod/custom_flow.rou.xml"/>
     </netedit>
 
@@ -43,7 +42,11 @@
 </configuration>
 -->
 
-<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
-    <parkingArea id="pa1" lane="-122612356#1_1" startPos="594.58" endPos="604.58" roadsideCapacity="35"/>
-    <parkingArea id="pa2" lane="122612356#1_1" startPos="26.29" endPos="36.29" roadsideCapacity="40"/>
-</additional>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <flow id="flow_0" begin="0.00" color="red" from="171867136#1" to="122612356#1" end="3600.00" number="40">
+        <stop parkingArea="pa2" duration="60.00"/>
+    </flow>
+    <flow id="flow_1" begin="0.00" color="green" from="-122612356#1" to="-171867136#1" end="3600.00" number="35">
+        <stop parkingArea="pa1" duration="60.00"/>
+    </flow>
+</routes>
