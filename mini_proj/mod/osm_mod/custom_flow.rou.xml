@@ -43,10 +43,10 @@
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
-    <flow id="flow_0" begin="0.00" color="red" from="171867136#1" to="122612356#1" end="3600.00" number="40">
+    <flow id="flow_0" begin="0.00" color="red" from="171867136#1" to="122612356#1" end="3600.00" number="1000">
         <stop parkingArea="pa2" duration="60.00"/>
     </flow>
-    <flow id="flow_1" begin="0.00" color="green" from="-122612356#1" to="-171867136#1" end="3600.00" number="35">
+    <flow id="flow_1" begin="0.00" color="green" from="-122612356#1" to="-171867136#1" end="3600.00" number="1000">
         <stop parkingArea="pa1" duration="60.00"/>
     </flow>
 </routes>

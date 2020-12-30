@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Wed Dec 30 07:51:47 2020 by Eclipse SUMO netedit Version 1.7.0
+<!-- generated on Wed Dec 30 20:49:56 2020 by Eclipse SUMO netedit Version 1.7.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -33,7 +33,7 @@
 
     <netedit>
         <additional-files value="/home/shashwath/Sumo/mini_proj/mod/osm_mod/p_stop.add.xml"/>
-        <route-files value="/home/shashwath/Sumo/mini_proj/mod/osm_mod/custom_flow.rou.xml"/>
+        <route-files value="/home/shashwath/Sumo/mini_proj/mod/osm_mod/insideCampus.rou.xml"/>
     </netedit>
 
     <report>
@@ -44,6 +44,6 @@
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
-    <parkingArea id="pa1" lane="-122612356#1_1" startPos="594.58" endPos="604.58" roadsideCapacity="35"/>
-    <parkingArea id="pa2" lane="122612356#1_1" startPos="26.29" endPos="36.29" roadsideCapacity="40"/>
+    <parkingArea id="pa1" lane="-122612356#1_1" startPos="574.58" endPos="610.58" roadsideCapacity="15"/>
+    <parkingArea id="pa2" lane="122612356#1_1" startPos="6.98" endPos="42.28" roadsideCapacity="15"/>
 </additional>

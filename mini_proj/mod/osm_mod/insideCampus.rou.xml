@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Wed Dec 30 20:49:58 2020 by Eclipse SUMO netedit Version 1.7.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/home/shashwath/Sumo/mini_proj/mod/osm_mod/osm.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/shashwath/Sumo/mini_proj/mod/osm_mod/osm.net.xml"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="true"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="true"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="/home/shashwath/Sumo/mini_proj/mod/osm_mod/p_stop.add.xml"/>
+        <route-files value="/home/shashwath/Sumo/mini_proj/mod/osm_mod/insideCampus.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="ambulance" vClass="emergency" guiShape="delivery" color="red"/>
+    <vType id="bicycle" vClass="bicycle" emissionClass="HBEFA3/PC_G_EU4" width="1.80" height="1.50" color="cyan"/>
+    <vType id="bike" vClass="motorcycle" emissionClass="HBEFA3/PC_G_EU4" width="1.80" color="0,128,0"/>
+    <vType id="campus_patrol" vClass="authority" color="magenta"/>
+    <vType id="vType_0"/>
+    <trip id="vehicle_0" type="ambulance" depart="0.00" color="red" from="122612374#0" to="122612374#0" via="122612374#1 122612374#2 122612374#3 -609872584 -122612374#2 186263433#0 186263433#1 186263433#2 -706734275#1 -706734275#0 706734276#1 706734276#2 706734276#3 706734276#4 706734275#0 706734275#1 706734275#2 706734275#3 -122612374#0"/>
+    <trip id="vehicle_1" type="bicycle" depart="0.00" from="122612374#0" to="706734275#1" via="122612374#1 186263433#0 -364433566 -186263438#0 706734275#3 -122612374#0 122612374#0 -706734275#3 186263438#0 364433566 -186263433#0 -122612374#1 -706734275#3 -706734275#2 -706734275#1 -706734275#0 706734276#1 -288926324#5 288926324#5 706734276#2 706734276#3 706734276#4"/>
+    <trip id="vehicle_2" type="campus_patrol" depart="0.00" color="128,0,0" from="122612374#1" to="122612374#0"/>
+    <trip id="vehicle_3" type="campus_patrol" depart="0.00" color="128,0,0" from="-122612374#0" to="-122612374#1"/>
+    <trip id="vehicle_4" type="campus_patrol" depart="0.00" color="128,0,0" from="-706734275#3" to="-122612374#1"/>
+    <flow id="flow_2" type="bike" begin="0.00" color="0,128,0" from="374529120#6" to="374529120#6" via="374529120#7 374529120#8 374529120#9 374529120#10 374529120#11 374529120#12 gneE85 gneE83 578203893 gneE45 gneE46 gneE70 gneE76 gneE77 122612356#1 171867136#1 171867136#2 171867136#3 800610495#0 800610495#1 -171867130#1 -171867130#0 158486424#9 374533525#4 374533525#5 374529122#0 374529122#1 374532416#1 374532416#2 374532416#3 374532416#4 374532416#5" end="3600.00" number="1800">
+        <stop parkingArea="pa2" duration="60.00"/>
+    </flow>
+</routes>
