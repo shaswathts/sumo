@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Mon Jan 11 07:29:10 2021 by Eclipse SUMO netedit Version 1.7.0
+<!-- generated on Mon Jan 11 08:11:32 2021 by Eclipse SUMO netedit Version 1.7.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -32,6 +32,7 @@
     </pedestrian>
 
     <netedit>
+        <additional-files value="/home/shashwath/Sumo/mini_proj/mod/osm_mod/p_stop.add.xml"/>
         <route-files value="/home/shashwath/Sumo/mini_proj/mod/osm_mod/custom_flow.rou.xml"/>
     </netedit>
 
@@ -43,13 +44,9 @@
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="nearmnp" vClass="private" color="yellow"/>
     <vType id="udp2mnp_R2" vClass="private" color="red"/>
-        <flow id="flow_0" begin="0.00" color="red" from="171867136#1" to="122612356#1" end="3600.00" number="1000">
-        <stop parkingArea="pa2" duration="60.00"/>
-    </flow>
-    <flow id="flow_1" begin="0.00" color="green" from="-122612356#1" to="-171867136#1" end="3600.00" number="1000">
-        <stop parkingArea="pa1" duration="60.00"/>
-    </flow>
+    <flow id="flow_0" type="nearmnp" begin="0.00" from="804217356#11" to="804217356#9" via="133755126#0 133755126#1 133755126#3 133755126#4 133755126#5 133755126#6 133755126#7 133755126#8 133755126#10 133755126#11 133755126#13 133755126#14 133755126#15 gneE27 gneE70 gneE76 gneE77 122612356#1 -171867136#1 -122612356#1 -gneE77 -gneE76 -gneE27 -133755126#15 -133755126#14 -133755126#13 -133755126#11 -133755126#8 -133755126#6 -133755126#3 -133755126#1 -133755126#0 804207591#0 804217356#1 804217356#3 804217356#4 804217356#6 804217356#8" end="3600.00" number="1800"/>
     <flow id="udp2mnp_R2" type="udp2mnp_R2" begin="0.00" from="374529120#6" to="374532416#5" via="374529120#7 374529120#8 374529120#9 374529120#10 374529120#11 374529120#12 gneE85 -158486424#9 171867130#0 171867130#1 -800610495#1 -800610495#0 -171867136#3 -171867136#2 -171867136#1 -122612356#1 -gneE77 gneE75 374529112#3 374533525#0 374533525#1 gneE80 374533525#4 374533525#5 374529122#0 374529122#1 374532416#1 374532416#2 374532416#3 374532416#4" end="3600.00" number="1800">
         <stop parkingArea="pa1" duration="60.00"/>
     </flow>
