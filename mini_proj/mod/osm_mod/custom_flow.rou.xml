@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Wed Dec 30 07:50:47 2020 by Eclipse SUMO netedit Version 1.7.0
+<!-- generated on Mon Jan 11 07:29:10 2021 by Eclipse SUMO netedit Version 1.7.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -43,10 +43,14 @@
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
-    <flow id="flow_0" begin="0.00" color="red" from="171867136#1" to="122612356#1" end="3600.00" number="1000">
+    <vType id="udp2mnp_R2" vClass="private" color="red"/>
+        <flow id="flow_0" begin="0.00" color="red" from="171867136#1" to="122612356#1" end="3600.00" number="1000">
         <stop parkingArea="pa2" duration="60.00"/>
     </flow>
     <flow id="flow_1" begin="0.00" color="green" from="-122612356#1" to="-171867136#1" end="3600.00" number="1000">
+        <stop parkingArea="pa1" duration="60.00"/>
+    </flow>
+    <flow id="udp2mnp_R2" type="udp2mnp_R2" begin="0.00" from="374529120#6" to="374532416#5" via="374529120#7 374529120#8 374529120#9 374529120#10 374529120#11 374529120#12 gneE85 -158486424#9 171867130#0 171867130#1 -800610495#1 -800610495#0 -171867136#3 -171867136#2 -171867136#1 -122612356#1 -gneE77 gneE75 374529112#3 374533525#0 374533525#1 gneE80 374533525#4 374533525#5 374529122#0 374529122#1 374532416#1 374532416#2 374532416#3 374532416#4" end="3600.00" number="1800">
         <stop parkingArea="pa1" duration="60.00"/>
     </flow>
 </routes>
