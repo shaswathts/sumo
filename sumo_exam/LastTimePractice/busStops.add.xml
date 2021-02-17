@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Wed Feb 17 07:06:48 2021 by Eclipse SUMO netedit Version 1.7.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <output>
+        <output-file value="/home/shashwath/Sumo/sumo_exam/LastTimePractice/FinalPrac.net.xml"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <netedit>
+        <additional-files value="/home/shashwath/Sumo/sumo_exam/LastTimePractice/busStops.add.xml"/>
+        <route-files value="/home/shashwath/Sumo/sumo_exam/LastTimePractice/Coustom.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="busStop_0" lane="gneE12_1" startPos="61.92" endPos="71.92" name="pflow1" personCapacity="150"/>
+    <busStop id="busStop_1" lane="gneE5_1" startPos="21.46" endPos="31.46" name="pflow1" personCapacity="150"/>
+    <busStop id="busStop_gneE8_1_0" lane="gneE8_1" startPos="18.60" endPos="28.60"/>
+</additional>

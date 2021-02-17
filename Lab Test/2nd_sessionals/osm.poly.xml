@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Wed Jan 27 12:34:34 2021 by Eclipse SUMO polyconvert Version 1.7.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/polyconvertConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.net.xml"/>
+        <osm-files value="osm_bbox.osm.xml"/>
+        <osm.keep-full-type value="true"/>
+        <type-file value="/opt/sumo-1.7.0/data/typemap/osmPolyconvert.typ.xml"/>
+    </input>
+
+    <output>
+        <output-file value="osm.poly.xml"/>
+    </output>
+
+    <processing>
+        <poi-layer-offset value="5"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <location netOffset="-483523.29,-1422698.62" convBoundary="0.00,-0.00,7611.49,6791.30" origBoundary="74.848134,12.869413,74.918271,12.930848" projParameter="+proj=utm +zone=43 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"/>
+
+    <poly id="318725570" type="amenity.marketplace" color="237,199,199" fill="1" layer="-1.00" shape="1105.777034,1171.338826 1068.524180,1158.642045 1118.433825,1123.934883 1134.257003,1112.922911 1147.661344,1142.408707 1105.777034,1171.338826"/>
+    <poly id="318725575" type="amenity.public_building" color="237,199,199" fill="1" layer="-1.00" shape="1128.856024,1175.716361 1123.786095,1169.758590 1145.691684,1151.367219 1150.761611,1157.324994 1128.856024,1175.716361"/>
+    <poly id="318725575#1" type="building.yes" color="255,230,230" fill="1" layer="-1.00" shape="1128.856024,1175.716361 1123.786095,1169.758590 1145.691684,1151.367219 1150.761611,1157.324994 1128.856024,1175.716361"/>
+    <poly id="318725577" type="landuse.commercial" color="209,209,204" fill="1" layer="-3.00" shape="1175.936022,1203.967216 1164.878954,1201.075944 1114.524799,1177.117630 1111.897349,1173.657750 1150.634446,1143.092703 1174.766417,1188.065655 1180.305607,1199.043762 1178.854015,1203.091989 1175.936022,1203.967216"/>
+    <poly id="585612369" type="landuse.plant_nursery" color="194,194,130" fill="1" layer="-3.00" shape="1682.945299,1588.398647 1680.755330,1591.352444 1679.596316,1594.836505 1679.587415,1598.507950 1680.880458,1602.256114 1683.366570,1605.362250 1686.752629,1607.461579 1690.658780,1608.299957 1694.607612,1607.789169 1698.165187,1605.984738 1700.908500,1603.097001 1702.512257,1599.468944 1702.781388,1595.509839 1701.705291,1591.684148 1699.609798,1588.666273 1696.679339,1586.445057 1693.185261,1585.241527 1689.485652,1585.177137 1685.960247,1586.273805 1682.945299,1588.398647"/>
+    <poi id="1319901273" type="shop.jewelry" color="237,199,255" layer="4.00" x="1176.17" y="1127.64"/>
+    <poi id="1737516799" type="amenity.fast_food" color="237,199,199" layer="4.00" x="1570.83" y="1269.44"/>
+    <poi id="2364157147" type="amenity.fast_food" color="237,199,199" layer="4.00" x="1222.22" y="1227.66"/>
+    <poi id="3350321909" type="amenity.atm" color="237,199,199" layer="4.00" x="1195.88" y="1277.64"/>
+    <poi id="4620610790" type="shop.bicycle" color="237,199,255" layer="4.00" x="1301.10" y="1292.43"/>
+    <poi id="5224414589" type="building.yes" color="255,230,230" layer="4.00" x="1203.92" y="1254.93"/>
+    <poi id="5224414724" type="shop.wine" color="237,199,255" layer="4.00" x="1221.49" y="1230.75"/>
+    <poi id="5338398517" type="amenity.bank" color="237,199,199" layer="4.00" x="1220.30" y="1294.20"/>
+    <poi id="5338398525" type="tourism.apartment" color="207,245,201" layer="3.00" x="1037.06" y="1318.77"/>
+    <poi id="6394957628" type="amenity.place_of_worship" color="237,199,199" layer="4.00" x="2281.23" y="1077.12"/>
+    <poi id="6394986146" type="amenity.place_of_worship" color="237,199,199" layer="4.00" x="2267.71" y="1429.15"/>
+    <poi id="6394986794" type="shop.supermarket" color="237,199,255" layer="4.00" x="2102.26" y="1680.51"/>
+    <poi id="6395198038" type="amenity.place_of_worship" color="237,199,199" layer="4.00" x="2097.94" y="1363.20"/>
+    <poi id="6395208268" type="shop.medical_supply" color="237,199,255" layer="4.00" x="2153.01" y="1657.95"/>
+    <poi id="8187930253" type="amenity.atm" color="237,199,199" layer="4.00" x="1511.27" y="1836.33"/>
+    <poi id="8187930256" type="amenity.atm" color="237,199,199" layer="4.00" x="2047.99" y="1720.61"/>
+    <poi id="8187930257" type="amenity.atm" color="237,199,199" layer="4.00" x="1776.23" y="1669.76"/>
+    <poi id="8187930261" type="amenity.atm" color="237,199,199" layer="4.00" x="2699.51" y="1486.08"/>
+    <poi id="8187930270" type="amenity.atm" color="237,199,199" layer="4.00" x="1028.66" y="1125.40"/>
+    <poi id="8187964168" type="amenity.bank" color="237,199,199" layer="4.00" x="1522.03" y="1850.36"/>
+    <poi id="8187964192" type="amenity.bank" color="237,199,199" layer="4.00" x="2587.88" y="1495.27"/>
+    <poi id="8187964217" type="amenity.bank" color="237,199,199" layer="4.00" x="1009.20" y="1125.48"/>
+    <poi id="8187964221" type="amenity.bank" color="237,199,199" layer="4.00" x="1164.24" y="1087.29"/>
+    <poi id="8188025227" type="amenity.dentist" color="237,199,199" layer="4.00" x="1268.92" y="1254.55"/>
+    <poi id="8188036044" type="amenity.hospital" color="237,199,199" layer="4.00" x="2389.35" y="1554.25"/>
+    <poi id="8188059014" type="amenity.restaurant" color="237,199,199" layer="4.00" x="1577.61" y="1746.19"/>
+    <poi id="8188059020" type="amenity.restaurant" color="237,199,199" layer="4.00" x="2114.79" y="1680.41"/>
+    <poi id="8188059023" type="amenity.restaurant" color="237,199,199" layer="4.00" x="2381.86" y="1609.41"/>
+    <poi id="8188059025" type="amenity.restaurant" color="237,199,199" layer="4.00" x="2318.73" y="1597.94"/>
+    <poi id="8188059045" type="amenity.restaurant" color="237,199,199" layer="4.00" x="1214.30" y="1277.64"/>
+    <poi id="8188059048" type="amenity.restaurant" color="237,199,199" layer="4.00" x="1209.54" y="1198.20"/>
+    <poi id="8196809986" type="amenity.college" color="237,199,199" layer="4.00" x="2106.09" y="1678.25"/>
+    <poi id="8196809987" type="amenity.college" color="237,199,199" layer="4.00" x="2227.43" y="1675.42"/>
+    <poi id="8196824829" type="tourism.hotel" color="207,245,201" layer="3.00" x="1267.88" y="1273.75"/>
+</additional>

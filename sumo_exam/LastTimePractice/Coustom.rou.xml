@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Wed Feb 17 07:27:01 2021 by Eclipse SUMO netedit Version 1.7.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <output>
+        <output-file value="/home/shashwath/Sumo/sumo_exam/LastTimePractice/FinalPrac.net.xml"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <netedit>
+        <additional-files value="/home/shashwath/Sumo/sumo_exam/LastTimePractice/busStops.add.xml"/>
+        <route-files value="/home/shashwath/Sumo/sumo_exam/LastTimePractice/Coustom.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="Bus" vClass="bus" color="yellow"/>
+    <vType id="Tram" vClass="tram"/>
+    <vType id="vType_0"/>
+    <flow id="flow_0" type="Tram" begin="0.00" from="gneE14" to="gneE14" via="gneE15 gneE16 gneE17" end="3600.00" number="100"/>
+    <flow id="flow_1" type="Bus" begin="0.00" from="gneE7" to="gneE7" via="gneE8 gneE9 gneE12 gneE4" end="3600.00" number="100">
+        <stop busStop="busStop_gneE8_1_0" duration="60.00"/>
+        <stop busStop="busStop_0" duration="60.00"/>
+    </flow>
+    <personFlow id="personFlow_0" begin="0.00" end="3600.00" number="1000">
+        <personTrip from="gneE7" to="gneE8"/>
+        <stop busStop="busStop_gneE8_1_0" duration="60.00"/>
+    </personFlow>
+    <personFlow id="personFlow_1" begin="0.00" end="3600.00" number="1000">
+        <personTrip from="gneE8" to="gneE9"/>
+    </personFlow>
+    <personFlow id="personFlow_2" begin="0.00" end="3600.00" number="1000">
+        <personTrip from="gneE11" to="gneE12"/>
+    </personFlow>
+    <personFlow id="personFlow_3" begin="0.00" end="3600.00" number="1000">
+        <personTrip from="-gneE12" to="gneE13"/>
+    </personFlow>
+</routes>

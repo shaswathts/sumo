@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue Feb 16 23:24:38 2021 by Eclipse SUMO GUI Version 1.7.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="ForBusStop.net.xml"/>
+        <route-files value="/home/shashwath/Sumo/sumo_exam/ForBusStop/ToBusStop.rou.xml"/>
+        <additional-files value="/home/shashwath/Sumo/sumo_exam/ForBusStop/busStop.add.xml"/>
+    </input>
+
+</configuration>
